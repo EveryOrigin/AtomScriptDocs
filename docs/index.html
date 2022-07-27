@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AtomScript 开发文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      search: 'auto',
+      search: {
+        maxAge: 86400000,
+        paths: [], 
+        placeholder: '请输入搜索关键字',
+        noData: '无结果!',
+        depth:6
+      },
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      },
+      loadNavbar: true,
+      coverpage: true,
+      loadSidebar: true,
+      name: '',
+      repo: ''
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+</body>
+<body>
+  <nav>
+    <a href="#/">主页</a>
+    <a href="#/course/入门.md">教程</a>
+    <a href="https://www.mcbbs.net/thread-1366839-1-1.html">MCBBS</a>
+    <a href="#/更新记录">更新记录</a>
+  </nav>
+  <div id="navbar"></div>
+</body>
+</html>
